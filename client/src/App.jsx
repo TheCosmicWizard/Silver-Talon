@@ -14,8 +14,10 @@ function App() {
           Log In
         </a>
       </div>
-      <div className="App">
-        <h1>Welcome to Silver Talon</h1>
+      <div className="App text-center m-10 p-10 space-y-6">
+        <h1 className="text-4xl font-bold text-center">
+          Welcome to Silver Talon
+        </h1>
         <p>
           Premium dining destination where elegance meets exceptional taste. We
           blend refined ambience, carefully curated recipes, and uncompromising
