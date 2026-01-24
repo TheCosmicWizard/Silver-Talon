@@ -16,7 +16,13 @@ function App() {
       </div>
       <div className="App">
         <h1>Welcome to Silver Talon</h1>
-        <p>Experience the finest dining with us.</p>
+        <p>
+          Premium dining destination where elegance meets exceptional taste. We
+          blend refined ambience, carefully curated recipes, and uncompromising
+          quality to deliver a luxurious culinary experience you can trust. From
+          handpicked ingredients to hygienic preparation and professional
+          service, every detail at Silver Talon reflects excellence.
+        </p>
       </div>
     </>
   );
