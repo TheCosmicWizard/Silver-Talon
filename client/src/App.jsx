@@ -1,4 +1,5 @@
-import "./App.css";
+import { Link, Routes, Route } from "react-router-dom";
+import Book from "./components/Book";
 
 function App() {
   return (
@@ -7,14 +8,14 @@ function App() {
         <a href="#menu" target="_blank">
           Menu
         </a>
-        <a href="book" target="_blank">
-          Book Table
-        </a>
+        <Link to="/about">About</Link>
+        <Link to="/book-table">Book Table</Link>
         <a href="log" target="_blank">
           Log In
         </a>
       </div>
-      <div className="App text-center m-10 p-10 space-y-6">
+
+      <div className="text-center m-10 p-10 space-y-6" id="App">
         <h1 className="text-4xl font-bold text-center">
           Welcome to Silver Talon
         </h1>
@@ -26,6 +27,10 @@ function App() {
           service, every detail at Silver Talon reflects excellence.
         </p>
       </div>
+
+      <Routes>
+        <Route path="/book-table" element={<Book />} />
+      </Routes>
     </>
   );
 }
