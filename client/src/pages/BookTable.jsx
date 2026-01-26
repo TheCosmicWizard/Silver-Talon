@@ -1,4 +1,4 @@
-function Book() {
+function BookTable() {
   return (
     <div>
       <h2>Book a Table</h2>
@@ -28,4 +28,4 @@ function Book() {
     </div>
   );
 }
-export default Book;
+export default BookTable;
